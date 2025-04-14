@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background-color: #1A1A1A;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  background-color: #1E3A8A;
+}
+.card {
+  @apply bg-fithub-gray p-6 rounded-lg shadow-lg;
+}
