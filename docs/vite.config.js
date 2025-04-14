@@ -1,15 +1,7 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+// ~/.../FastFitHubCommunity/docs/vite.config.js
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: []
-    }
-  },
-  server: {
-    host: "0.0.0.0",
-    port: 5173
-  }
+  base: '/FastFitHubCommunity/',
+  // ... other configurations
 });
