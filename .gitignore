@@ -1,0 +1,15 @@
+*.wav
+*.py
+.bash_history
+.cache/
+.cargo/
+.config/
+.local/
+.node_repl_history
+.npm/
+.ssh/
+.termux/
+.viminfo
+.wget-hsts
+storage/
+downloads/
