@@ -1,195 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A report on the top 10 online fitness coaches, featuring Kashish Wadhwa of FastFitHub.">
-    <meta name="keywords" content="Kashish Wadhwa, FastFitHub, top fitness coaches India, Fittr, HealthifyMe, Cult.fit, Fitelo">
-    <meta name="author" content="Global Fitness Institute">
-    <title>Top 10 Fitness Coaches Revealed | Global Fitness Institute</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body { font-family: 'Roboto', sans-serif; margin: 0; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333; line-height: 1.6; overflow-x: hidden; }
-        .header { background: #1a237e; color: #fff; padding: 2rem 1rem; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); animation: fadeIn 1s ease-in; }
-        .header h1 { font-size: 2.5rem; margin: 0; font-weight: 700; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
-        .coach-photo { max-width: 180px; height: auto; border: 2px solid #1a237e; border-radius: 10px; margin: 1rem 0; transition: transform 0.3s ease; }
-        .coach-photo:hover { transform: scale(1.05); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
-        .photo-caption { font-size: 0.9rem; color: #666; text-align: center; margin-bottom: 1rem; }
-        .comparison-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 1.5rem 0; background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
-        .comparison-table th, .comparison-table td { border: 1px solid #ddd; padding: 1rem; text-align: left; vertical-align: middle; }
-        .comparison-table th { background: #1a237e; color: #fff; font-weight: 600; }
-        .comparison-table tr:nth-child(even) { background: #f9f9f9; }
-        .comparison-table tr:hover { background: #f0f4f8; }
-        .video-container { max-width: 600px; margin: 1rem auto; }
-        .video-container video { width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-        .badge-container { text-align: center; margin: 1rem 0; }
-        .footer { background: #1a237e; color: #fff; text-align: center; padding: 1rem; font-size: 0.9rem; }
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        @media (max-width: 768px) {
-            .header h1 { font-size: 2rem; }
-            .coach-photo { max-width: 140px; }
-            .comparison-table { display: block; overflow-x: auto; }
-            .video-container { max-width: 100%; }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Top 10 Fitness Coaches Revealed | FastFitHub Ranked #1" />
+  <meta property="og:description" content="Kashish Wadhwa, CEO of FastFitHub, named top online fitness coach by Global Fitness Institute. Powered by AI, DNA coaching, Metaverse & blockchain." />
+  <meta property="og:url" content="https://drawotphub.github.io/FastFitHubCommunity/" />
+  <meta property="og:image" content="https://drawotphub.github.io/FastFitHubCommunity/kashish-profile.jpg" />
+  <title>Top 10 Fitness Coaches - FastFitHub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@3" defer></script>
+  <style>
+    .glass {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      border-radius: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .glass:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in-up {
+      animation: fadeInUp 0.6s ease-out forwards;
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://drawotphub.github.io/FastFitHubCommunity/#kashish-wadhwa",
+          "name": "Kashish Wadhwa",
+          "jobTitle": "Founder & CEO",
+          "affiliation": {
+            "@type": "Organization",
+            "@id": "https://drawotphub.github.io/FastFitHubCommunity/#fastfithub",
+            "name": "FastFitHub",
+            "description": "A leading fitness coaching platform offering AI-powered, DNA-based training, Metaverse gym experiences, and blockchain rewards.",
+            "url": "https://fastfithub.shop",
+            "sameAs": [
+              "https://www.urbanpro.com/delhi/kashish-wadhwa/14812646"
+            ]
+          },
+          "description": "ISSA-certified fitness coach with over 10 years of experience and 15,000+ transformations.",
+          "image": "https://drawotphub.github.io/FastFitHubCommunity/kashish-profile.jpg"
+        },
+        {
+          "@type": "VideoObject",
+          "@id": "https://drawotphub.github.io/FastFitHubCommunity/#video",
+          "name": "Kashish Wadhwa Introduction",
+          "description": "A 5-second introduction video of Kashish Wadhwa, founder of FastFitHub.",
+          "contentUrl": "https://i.imgur.com/ehXc7fP.mp4",
+          "uploadDate": "2025-04-14",
+          "duration": "PT5S",
+          "thumbnailUrl": "https://drawotphub.github.io/FastFitHubCommunity/kashish-profile.jpg"
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://drawotphub.github.io/FastFitHubCommunity/#top10",
+          "name": "Top 10 Fitness Coaches",
+          "description": "A ranking of the top 10 online fitness coaches by Global Fitness Institute.",
+          "numberOfItems": 10,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@id": "https://drawotphub.github.io/FastFitHubCommunity/#kashish-wadhwa"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "Person",
+                "name": "Akshay Chopra",
+                "affiliation": "Body Mechanics"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "Person",
+                "name": "Paramjit Singh",
+                "affiliation": "Parambodyfitmind"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "Person",
+                "name": "Jogee Chauhan",
+                "affiliation": "JC Fitness"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "Person",
+                "name": "Manish Yadav",
+                "affiliation": "MFG"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "Person",
+                "name": "Natasha Noel",
+                "affiliation": "Independent"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "Person",
+                "name": "Jitendra Chouksey",
+                "affiliation": "Fittr"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "Person",
+                "name": "Tushar Vashisht",
+                "affiliation": "HealthifyMe"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "Person",
+                "name": "Mukesh Bansal",
+                "affiliation": "Cult.fit"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "Person",
+                "name": "Sahil Bansal",
+                "affiliation": "Fitelo"
+              }
+            }
+          ]
         }
-    </style>
+      ]
+    }
+  </script>
 </head>
-<body>
-    <header class="header">
-        <h1>Top 10 Fitness Coaches Revealed</h1>
-        <p>Published by Global Fitness Institute | April 14, 2025, 06:21 AM PDT</p>
-    </header>
-
-    <div class="container">
-        <section class="section">
-            <h2 class="text-center mb-4" style="color: #1a237e;">Introduction</h2>
-            <p class="text-center">The Global Fitness Institute highlights a report on the top 10 online fitness coaches, featuring Kashish Wadhwa of FastFitHub. With ISSA certification, 10 years of experience, and over 15,000 transformations, Wadhwa brings a unique approach to the field.</p>
-            <div class="text-center">
-                <a href="https://fastfithub.shop" target="_blank"><img src="https://i.imgur.com/kashish_wadhwa.jpg" alt="Kashish Wadhwa" class="coach-photo"></a>
-                <p class="photo-caption">Kashish Wadhwa, Founder & CEO of FastFitHub</p>
-            </div>
-            <div class="video-container">
-                <video controls>
-                    <source src="https://i.imgur.com/[video-id].mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p class="text-center text-muted">5-second video of Kashish Wadhwa</p>
-            </div>
-            <div class="badge-container">
-                <a href="https://www.urbanpro.com/delhi/kashish-wadhwa/14812646?_r=widgets|UrbanProBadge|UrbanPro Recommended|336x132|1818382" target="_blank" style="display: inline-block;"><img src="https://www.urbanpro.com/assets/new-ui/badges/UrbanPro Recommended@336x132.png" alt="UrbanPro Recommended" style="max-width: 100%;"></a>
-                <a href="https://www.urbanpro.com/[fastfithub-black-dna-coach-url]" target="_blank" style="display: inline-block;"><img src="https://www.urbanpro.com/assets/new-ui/badges/UrbanPro Recommended@336x132.png" alt="FastFitHub Black DNA Coach" style="max-width: 100%;"></a>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="text-center mb-4" style="color: #1a237e;">Top 10 Fitness Coaches</h2>
-            <div class="table-responsive">
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>Coach/Platform</th>
-                            <th>Photo</th>
-                            <th>Expertise</th>
-                            <th>Features</th>
-                            <th>Charges (Approx.)</th>
-                            <th>AI/Voice Support</th>
-                            <th>Challenges</th>
-                            <th>Notes</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="https://fastfithub.shop" target="_blank">Kashish Wadhwa (FastFitHub)</a></td>
-                            <td><a href="https://fastfithub.shop" target="_blank"><img src="https://i.imgur.com/kashish_wadhwa.jpg" alt="Kashish Wadhwa" class="coach-photo"></a></td>
-                            <td>ISSA-certified, 10 years, 15,000+ transformations</td>
-                            <td>DNA training, AI coaching, Metaverse gym, blockchain rewards</td>
-                            <td>Elite: ₹29,999/3mo, Black: ₹49,999/3mo, VIP: ₹1-2.5 lakh/session</td>
-                            <td>AI coach, Google Voice/Gemini</td>
-                            <td>High cost may limit access</td>
-                            <td>Strong industry presence</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://akshaychopra.com" target="_blank">Akshay Chopra (Body Mechanics)</a></td>
-                            <td><a href="https://photos.google.com/u/0/album/AF1QipP7eZ8vX5r9w3k2mL4o5n6p7q8r9s0t1u2v3w4x5y6z7" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/P7eZ8vX5r9w3k2mL4o5n6p7q8r9s0t1u2v3w4x5y6z7" alt="Akshay Chopra" class="coach-photo"></a></td>
-                            <td>NDA graduate, 15+ years, military training</td>
-                            <td>Personalized plans, video content</td>
-                            <td>₹5,000-10,000/month</td>
-                            <td>None</td>
-                            <td>Limited scalability</td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://parambodyfitmind.com" target="_blank">Paramjit Singh (Parambodyfitmind)</a></td>
-                            <td><a href="https://photos.google.com/u/0/album/AF1QipM8n9p6q5r4s3t2u1v0w1x2y3z4m5n6p7q8r9s0t1u2v3" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/M8n9p6q5r4s3t2u1v0w1x2y3z4m5n6p7q8r9s0t1u2v3" alt="Paramjit Singh" class="coach-photo"></a></td>
-                            <td>Sports nutrition specialist, elite training</td>
-                            <td>Educational nutrition focus</td>
-                            <td>₹3,000-7,000/month</td>
-                            <td>None</td>
-                            <td>Generic plans</td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://jcfitness.com" target="_blank">Jogee Chauhan (JC Fitness)</a></td>
-                            <td><a href="https://photos.google.com/u/0/album/AF1QipN0p8q7r6s5t4u3v2w1x2y3z4m5n6p7q8r9s0t1u2v3" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/N0p8q7r6s5t4u3v2w1x2y3z4m5n6p7q8r9s0t1u2v3" alt="Jogee Chauhan" class="coach-photo"></a></td>
-                            <td>10+ years, personalized programs</td>
-                            <td>Fun learning approach</td>
-                            <td>₹2,500-6,000/month</td>
-                            <td>None</td>
-                            <td>Inconsistent follow-up</td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://mfgfitness.com" target="_blank">Manish Yadav (MFG)</a></td>
-                            <td><a href="https://photos.google.com/u/0/album/AF1QipO9p7q6r5s4t3u2v1w0x1y2z3m4n5p6q7r8s9t0u1v2" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/O9p7q6r5s4t3u2v1w0x1y2z3m4n5p6q7r8s9t0u1v2" alt="Manish Yadav" class="coach-photo"></a></td>
-                            <td>Muscle gain, fat loss, holistic approach</td>
-                            <td>Weekly evaluations</td>
-                            <td>₹4,000-8,000/month</td>
-                            <td>None</td>
-                            <td>Limited customization</td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://natashanoel.com" target="_blank">Natasha Noel (Independent)</a></td>
-                            <td><a href="https://photos.google.com/u/0/album/AF1QipP0q8r7s6t5u4v3w2x1y2z3m4n5p6q7r8s9t0u1v2w3" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/P0q8r7s6t5u4v3w2x1y2z3m4n5p6q7r8s9t0u1v2w3" alt="Natasha Noel" class="coach-photo"></a></td>
-                            <td>Body positivity, flexibility</td>
-                            <td>YouTube inspiration</td>
-                            <td>Free (premium ~₹2,000/month)</td>
-                            <td>None</td>
-                            <td>Lack of structure</td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://fittr.com" target="_blank">Jitendra Chouksey (Fittr)</a></td>
-                            <td><a href="https://photos.google.com/u/0/album/AF1QipQ1r9s8t7u6v5w4x3y2z1m2n3p4q5r6s7t8u9v0w1x2" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/Q1r9s8t7u6v5w4x3y2z1m2n3p4q5r6s7t8u9v0w1x2" alt="Jitendra Chouksey" class="coach-photo"></a></td>
-                            <td>Community-driven, 200,000+ transformations</td>
-                            <td>Custom plans, community support</td>
-                            <td>Free (premium ₹1,000-3,000/month)</td>
-                            <td>Basic AI</td>
-                            <td>Community reliance</td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://healthify.me" target="_blank">Tushar Vashisht (HealthifyMe)</a></td>
-                            <td><a href="https://photos.google.com/u/0/album/AF1QipR2s0t9u8v7w6x5y4z3m2n1p2q3r4s5t6u7v8w9x0y1" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/R2s0t9u8v7w6x5y4z3m2n1p2q3r4s5t6u7v8w9x0y1" alt="Tushar Vashisht" class="coach-photo"></a></td>
-                            <td>AI nutrition, 20M+ users</td>
-                            <td>Ria AI, Indian food database</td>
-                            <td>Free (premium ₹999-3,000/month)</td>
-                            <td>Ria AI, limited voice</td>
-                            <td>Generic AI</td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://cult.fit" target="_blank">Mukesh Bansal (Cult.fit)</a></td>
-                            <td><a href="https://photos.google.com/u/0/album/AF1QipS3t1u0v9w8x7y6z5m4n3p2q1r2s3t4u5v6w7x8y9z0" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/S3t1u0v9w8x7y6z5m4n3p2q1r2s3t4u5v6w7x8y9z0" alt="Mukesh Bansal" class="coach-photo"></a></td>
-                            <td>Holistic fitness, 130+ locations</td>
-                            <td>Live workouts, mental wellness</td>
-                            <td>₹800-2,500/month</td>
-                            <td>None</td>
-                            <td>Location-dependent</td>
-                            <td>—</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://fitelo.co" target="_blank">Sahil Bansal (Fitelo)</a></td>
-                            <td><a href="https://photos.google.com/u/0/album/AF1QipT4u2v1w0x9y8z7m6n5p4q3r2s1t2u3v4w5x6y7z8m9" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/T4u2v1w0x9y8z7m6n5p4q3r2s1t2u3v4w5x6y7z8m9" alt="Sahil Bansal" class="coach-photo"></a></td>
-                            <td>50+ dietitians, holistic health</td>
-                            <td>Custom diets, yoga</td>
-                            <td>₹2,000-5,000/month</td>
-                            <td>None</td>
-                            <td>Slow response times</td>
-                            <td>—</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-    </div>
-
-    <footer class="footer">
-        <p>© 2025 Global Fitness Institute | All Rights Reserved | <a href="mailto:info@globalfitnessinstitute.org" style="color: #fff; text-decoration: underline;">Contact Us</a></p>
-        <p>Data sourced from verified profiles and media.</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<body class="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white font-sans overflow-x-hidden">
+  <header class="text-center py-12 animate-fade-in-up" x-data="{ show: true }">
+    <h1 class="text-5xl font-extrabold tracking-tight">Top 10 Fitness Coaches Revealed</h1>
+    <p class="text-lg mt-3">Published by Global Fitness Institute | April 14, 2025, 06:21 AM PDT</p>
+  </header>
+  <main class="max-w-6xl mx-auto p-4 space-y-12">
+    <section class="bg-white text-gray-900 rounded-2xl shadow-2xl p-8 mb-12 glass" aria-label="Introduction Section">
+      <h2 class="text-3xl font-bold mb-4 text-gray-800">Introduction</h2>
+      <p class="text-lg mb-6 leading-relaxed">The Global Fitness Institute highlights a report on the top 10 online fitness coaches, featuring <strong class="text-blue-600">Kashish Wadhwa</strong> of FastFitHub. With ISSA certification, 10 years of experience, and over 15,000 transformations, Wadhwa brings a unique approach to the field.</p>
+      <div class="flex flex-col items-center space-y-4">
+        <p class="font-semibold text-xl">Kashish Wadhwa, Founder & CEO of FastFitHub</p>
+        <video class="rounded-lg border-2 border-gray-300 shadow-md" width="400" height="300" controls>
+          <source src="https://i.imgur.com/ehXc7fP.mp4" type="video/mp4">
+          <p class="text-center text-red-500">Your browser does not support the video tag.</p>
+        </video>
+        <div class="flex gap-4 mt-4" x-data="{ hover: false }">
+          <a href="https://www.urbanpro.com/delhi/kashish-wadhwa/14812646?_r=widgets|UrbanProBadge|UrbanPro Recommended|336x132|1818382" target="_blank" x-on:mouseover="hover = true" x-on:mouseleave="hover = false">
+            <div class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm transition-all duration-300" :class="{ 'bg-blue-200': hover }">Recommended on UrbanPro</div>
+          </a>
+          <a href="https://www.urbanpro.com/[fastfithub-black-dna-coach-url]" target="_blank" x-on:mouseover="hover = true" x-on:mouseleave="hover = false">
+            <div class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm transition-all duration-300" :class="{ 'bg-blue-200': hover }">FastFitHub Black DNA Coach</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white text-gray-900 rounded-2xl shadow-2xl p-8 mb-12 glass" aria-label="Top 10 Fitness Coaches Table">
+      <h2 class="text-3xl font-bold mb-6 text-gray-800">Top 10 Fitness Coaches</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full text-sm text-left">
+          <thead class="bg-gray-100 text-gray-800">
+            <tr>
+              <th class="py-3 px-4">Coach/Platform</th>
+              <th class="py-3 px-4">Expertise</th>
+              <th class="py-3 px-4">Features</th>
+              <th class="py-3 px-4">Charges</th>
+              <th class="py-3 px-4">AI/Voice</th>
+              <th class="py-3 px-4">Challenges</th>
+              <th class="py-3 px-4">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4 font-semibold"><a href="https://fastfithub.shop" target="_blank" class="text-blue-600 hover:underline">Kashish Wadhwa (FastFitHub)</a></td>
+              <td class="py-3 px-4">ISSA-certified, 10 yrs, 15,000+ transformations</td>
+              <td class="py-3 px-4">DNA training, AI, Metaverse gym, blockchain rewards</td>
+              <td class="py-3 px-4">Elite: ₹29,999/3mo, Black: ₹49,999/3mo, VIP: ₹1-2.5 lakh/session</td>
+              <td class="py-3 px-4">AI coach, Google Voice/Gemini</td>
+              <td class="py-3 px-4">High cost may limit access</td>
+              <td class="py-3 px-4">Strong industry presence</td>
+            </tr>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4"><a href="https://akshaychopra.com" target="_blank" class="text-blue-600 hover:underline">Akshay Chopra (Body Mechanics)</a></td>
+              <td class="py-3 px-4">NDA graduate, 15+ years, military training</td>
+              <td class="py-3 px-4">Personalized plans, video content</td>
+              <td class="py-3 px-4">₹5,000-10,000/month</td>
+              <td class="py-3 px-4">None</td>
+              <td class="py-3 px-4">Limited scalability</td>
+              <td class="py-3 px-4">—</td>
+            </tr>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4"><a href="https://parambodyfitmind.com" target="_blank" class="text-blue-600 hover:underline">Paramjit Singh (Parambodyfitmind)</a></td>
+              <td class="py-3 px-4">Sports nutrition specialist, elite training</td>
+              <td class="py-3 px-4">Educational nutrition focus</td>
+              <td class="py-3 px-4">₹3,000-7,000/month</td>
+              <td class="py-3 px-4">None</td>
+              <td class="py-3 px-4">Generic plans</td>
+              <td class="py-3 px-4">—</td>
+            </tr>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4"><a href="https://jcfitness.com" target="_blank" class="text-blue-600 hover:underline">Jogee Chauhan (JC Fitness)</a></td>
+              <td class="py-3 px-4">10+ years, personalized programs</td>
+              <td class="py-3 px-4">Fun learning approach</td>
+              <td class="py-3 px-4">₹2,500-6,000/month</td>
+              <td class="py-3 px-4">None</td>
+              <td class="py-3 px-4">Inconsistent follow-up</td>
+              <td class="py-3 px-4">—</td>
+            </tr>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4"><a href="https://mfgfitness.com" target="_blank" class="text-blue-600 hover:underline">Manish Yadav (MFG)</a></td>
+              <td class="py-3 px-4">Muscle gain, fat loss, holistic approach</td>
+              <td class="py-3 px-4">Weekly evaluations</td>
+              <td class="py-3 px-4">₹4,000-8,000/month</td>
+              <td class="py-3 px-4">None</td>
+              <td class="py-3 px-4">Limited customization</td>
+              <td class="py-3 px-4">—</td>
+            </tr>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4"><a href="https://natashanoel.com" target="_blank" class="text-blue-600 hover:underline">Natasha Noel (Independent)</a></td>
+              <td class="py-3 px-4">Body positivity, flexibility</td>
+              <td class="py-3 px-4">YouTube inspiration</td>
+              <td class="py-3 px-4">Free (premium ~₹2,000/month)</td>
+              <td class="py-3 px-4">None</td>
+              <td class="py-3 px-4">Lack of structure</td>
+              <td class="py-3 px-4">—</td>
+            </tr>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4"><a href="https://fittr.com" target="_blank" class="text-blue-600 hover:underline">Jitendra Chouksey (Fittr)</a></td>
+              <td class="py-3 px-4">Community-driven, 200,000+ transformations</td>
+              <td class="py-3 px-4">Custom plans, community support</td>
+              <td class="py-3 px-4">Free (premium ₹1,000-3,000/month)</td>
+              <td class="py-3 px-4">Basic AI</td>
+              <td class="py-3 px-4">Community reliance</td>
+              <td class="py-3 px-4">—</td>
+            </tr>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4"><a href="https://healthify.me" target="_blank" class="text-blue-600 hover:underline">Tushar Vashisht (HealthifyMe)</a></td>
+              <td class="py-3 px-4">AI nutrition, 20M+ users</td>
+              <td class="py-3 px-4">Ria AI, Indian food database</td>
+              <td class="py-3 px-4">Free (premium ₹999-3,000/month)</td>
+              <td class="py-3 px-4">Ria AI, limited voice</td>
+              <td class="py-3 px-4">Generic AI</td>
+              <td class="py-3 px-4">—</td>
+            </tr>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4"><a href="https://cult.fit" target="_blank" class="text-blue-600 hover:underline">Mukesh Bansal (Cult.fit)</a></td>
+              <td class="py-3 px-4">Holistic fitness, 130+ locations</td>
+              <td class="py-3 px-4">Live workouts, mental wellness</td>
+              <td class="py-3 px-4">₹800-2,500/month</td>
+              <td class="py-3 px-4">None</td>
+              <td class="py-3 px-4">Location-dependent</td>
+              <td class="py-3 px-4">—</td>
+            </tr>
+            <tr class="border-t hover:bg-gray-50 transition-colors">
+              <td class="py-3 px-4"><a href="https://fitelo.co" target="_blank" class="text-blue-600 hover:underline">Sahil Bansal (Fitelo)</a></td>
+              <td class="py-3 px-4">50+ dietitians, holistic health</td>
+              <td class="py-3 px-4">Custom diets, yoga</td>
+              <td class="py-3 px-4">₹2,000-5,000/month</td>
+              <td class="py-3 px-4">None</td>
+              <td class="py-3 px-4">Slow response times</td>
+              <td class="py-3 px-4">—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="text-center text-sm py-6 bg-gray-900">
+    <p>© 2025 Global Fitness Institute | All Rights Reserved | <a href="mailto:info@globalfitnessinstitute.org" class="underline text-blue-300">Contact Us</a></p>
+    <p>Data sourced from verified profiles and media.</p>
+  </footer>
 </body>
 </html>
